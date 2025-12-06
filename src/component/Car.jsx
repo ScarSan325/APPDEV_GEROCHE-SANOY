@@ -1,23 +1,15 @@
+import React from "react";
 import { Paper, Typography } from "@mui/material";
 
-import (Paper)
-
-/*function Car(){
-    return(
-        <h2> Hi, I am Mika Car.</h2>
-    );
-}*/
-
-
-
-function Car(){
-    return(
-        <Paper elevation={3} sx={{padding:2, margin:2}}>
-            <Typography variant="h6" gutterBottom>
-                Hi, I am Mika Car.
-            </Typography>
-        </Paper>
-    );
+function Car() {
+  return (
+    <Paper elevation={3} sx={{ padding: 2, margin: 2 }}>
+      <Typography variant="h6">Car Component</Typography>
+      <Typography variant="body2">
+        This is a sample content inside a Paper component.
+      </Typography>
+    </Paper>
+  );
 }
 
 export default Car;
