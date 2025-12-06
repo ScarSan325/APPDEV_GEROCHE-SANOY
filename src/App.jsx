@@ -12,14 +12,7 @@ import {Loginform, SignUpform} from './component/login.jsx'
 function App() {
   return(
 
-    /*<div>
-      <Car/>
-      <FormContainer/>
-      <AnimalComponent/>
-    </div>
-    <>
-      <h1>Hello Mika and Scar koko</h1>
-    </>*/
+    
     <div>
       <Car/>
      <Box

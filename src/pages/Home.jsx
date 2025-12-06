@@ -9,6 +9,8 @@ export default function Home() {
     <>
       <Header />
 
+      
+
       <Container sx={{ mt: 4 }}>
         <Typography variant="h4" gutterBottom>
           Welcome to My BioNote

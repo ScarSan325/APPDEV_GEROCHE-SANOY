@@ -5,14 +5,7 @@ import App from './App.jsx'
 import Home from "./pages/Home";
 
 
-createRoot(document.getElementById('mika')).render(
-  //myelement
 
-  <StrictMode>
-    <App/>
-    <Home/>
-  </StrictMode>
-)
 
 /*const myelement = (
   <table>
@@ -31,3 +24,12 @@ createRoot(document.getElementById('mika')).render(
     </tr>
   </table>
 );*/
+
+createRoot(document.getElementById('mika')).render(
+  //myelement
+
+  <StrictMode>
+    <App/>
+    <Home/>
+  </StrictMode>
+);
