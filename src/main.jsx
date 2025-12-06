@@ -2,6 +2,17 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import Home from "./pages/Home";
+
+
+createRoot(document.getElementById('mika')).render(
+  //myelement
+
+  <StrictMode>
+    <App/>
+    <Home/>
+  </StrictMode>
+)
 
 /*const myelement = (
   <table>
@@ -11,7 +22,7 @@ import App from './App.jsx'
       </th>
     </tr>
     <tr>
-    <td> Mika </td>
+    <td> MikaScar </td>
     </tr>
     <tr>
       <td>
@@ -20,11 +31,3 @@ import App from './App.jsx'
     </tr>
   </table>
 );*/
-
-createRoot(document.getElementById('mika')).render(
-  //myelement
-
-  <StrictMode>
-    <App/>
-  </StrictMode>
-)
