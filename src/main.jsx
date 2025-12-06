@@ -1,13 +1,32 @@
-import { createRoot } from "react-dom/client"
-import App from "./App"
-import { StrictMode } from "react"
-import Car from "./component/Car.jsx"
-import Login from "./component/Login"
-import Signup from "./component/Signup"
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import Home from "./Home";
 
-createRoot(document.getElementById('Sanoy')).render(
+createRoot(document.getElementById('mika')).render(
+  //myelement
+
   <StrictMode>
-  <App/>
-
+    
+    <Home/>
   </StrictMode>
-)
+);
+
+/*const myelement = (
+  <table>
+    <tr>
+      <th>
+        Name
+      </th>
+    </tr>
+    <tr>
+    <td> MikaScar </td>
+    </tr>
+    <tr>
+      <td>
+       Scar
+      </td>
+    </tr>
+  </table>
+);*/
+

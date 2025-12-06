@@ -48,7 +48,7 @@ function SignUpform() {
         <CardActionArea>
           <CardContent>
             <Typography variant="h5" gutterBottom>
-                Login
+                Register
                 </Typography>
                 <Box component="form">
                     <TextField
