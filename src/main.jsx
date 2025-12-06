@@ -1,11 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
-import Home from "./pages/Home";
+import Home from "./Home";
 
+createRoot(document.getElementById('mika')).render(
+  //myelement
 
-
+  <StrictMode>
+    
+    <Home/>
+  </StrictMode>
+);
 
 /*const myelement = (
   <table>
@@ -25,11 +30,3 @@ import Home from "./pages/Home";
   </table>
 );*/
 
-createRoot(document.getElementById('mika')).render(
-  //myelement
-
-  <StrictMode>
-    <App/>
-    <Home/>
-  </StrictMode>
-);

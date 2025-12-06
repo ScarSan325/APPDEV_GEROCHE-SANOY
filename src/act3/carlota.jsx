@@ -1,17 +1,4 @@
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-import Header from "../act3/Header";
-import Footer from "../act3/Footer";
-import ProfileCard from "../act3/ProfileCard";
-
-export default function Home() {
-  return (
-    <>
-      <Header />
-
-      
-
-      <Container sx={{ mt: 4 }}>
+<Container sx={{ mt: 4 }}>
         <Typography variant="h4" gutterBottom>
           Welcome to My BioNote
         </Typography>
@@ -32,8 +19,3 @@ export default function Home() {
           }
         />
       </Container>
-
-      <Footer />
-    </>
-  );
-}
