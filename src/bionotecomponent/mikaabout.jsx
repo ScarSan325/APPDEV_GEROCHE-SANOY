@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 
 function mikaabout() {
   return (
-    <Box mb={4} sx={{ maxWidth: 600 }}>
+    <Box mb={4}>
       <Typography variant="h5" fontWeight="bold" gutterBottom>
         About Me
       </Typography>

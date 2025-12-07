@@ -3,7 +3,7 @@ import profilePic from "../assets/mikaprofilepic.png";
 
 function mikaname() {
   return (
-    <Box textAlign="center" mb={4} sx={{ maxWidth: 500 }}>
+    <Box textAlign="center" mb={4} >
       {/* Profile Picture */}
       <Avatar
         src={profilePic}
@@ -21,7 +21,7 @@ function mikaname() {
       <Typography variant="h3" fontWeight="bold">
         Mecah May Nicole Geroche
       </Typography>
-      <Typography variant="h6" color="text.secondary">
+      <Typography variant="h6" color="white">
         Artist • IT Student • Web Developer
       </Typography>
     </Box>

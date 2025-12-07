@@ -3,17 +3,31 @@ import { Box, Typography, Chip, Stack } from "@mui/material";
 function mikaskills() {
   return (
     <Box mb={4}>
-      <Typography variant="h5" fontWeight="bold" gutterBottom>
+      <Typography variant="h6" fontWeight="bold" gutterBottom>
         Skills
       </Typography>
 
       <Stack direction="row" spacing={1} flexWrap="wrap">
-        <Chip label="HTML" />
-        <Chip label="CSS" />
-        <Chip label="JavaScript" />
-        <Chip label="React" />
-        <Chip label="Digital Art" />
-        <Chip label="UI/UX Design" />
+        <Chip
+          label="HTML"
+          sx={{ backgroundColor: "white", color: "black", border: "1px solid #ccc" }}
+        />
+        <Chip
+          label="CSS"
+          sx={{ backgroundColor: "white", color: "black", border: "1px solid #ccc" }}
+        />
+        <Chip
+          label="JavaScript"
+          sx={{ backgroundColor: "white", color: "black", border: "1px solid #ccc" }}
+        />
+        <Chip
+          label="Digital Art"
+          sx={{ backgroundColor: "white", color: "black", border: "1px solid #ccc" }}
+        />
+        <Chip
+          label="UI/UX Design"
+          sx={{ backgroundColor: "white", color: "black", border: "1px solid #ccc" }}
+        />
       </Stack>
     </Box>
   );
